@@ -140,8 +140,8 @@ extension RootViewController :UICollectionViewDelegate ,UICollectionViewDataSour
                 NetworkHelper().fetchImageFrom(name: data.image_name!, urlString: data.image_url!, callBack: { (results) in
                     switch results {
                     case .success(let image):
-                             currentcell.imageView.image = image
-                    }
+                        cell.imageView.image = image
+                    
                     case .failure(let val):
                         print("000 \(val)")
                     }
