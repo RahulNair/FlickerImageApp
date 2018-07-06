@@ -28,8 +28,7 @@ class FlickerImageAppUITests: XCTestCase {
         super.tearDown()
     }
     
-    
-    func testExample() {
+        func testExample() {
         
         
         let app = XCUIApplication()

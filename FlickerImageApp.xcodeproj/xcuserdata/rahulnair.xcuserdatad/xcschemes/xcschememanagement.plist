@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FlickerImageApp.xcscheme</key>
+		<key>FlickerImageApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FC48022020EF4F53003BC542</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCC37E7720E23CEB0047E782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCC37E8B20E23CEC0047E782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
