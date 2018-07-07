@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091EA9CCD592C33B9EFCA276C0C3C64B /* Pods-FlickerImageAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D43D6BFD8F8A6D5E8435E6C670FC37 /* Pods-FlickerImageAppTests-dummy.m */; };
+		226A5C607A9461EFE3644FC5667D5014 /* Pods-FlickerImageApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C43F90DF44AE9DECDC16381A2DCEE /* Pods-FlickerImageApp-dummy.m */; };
+		28E99D33FD57A6707F78EE22F074BCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		3145E3848BBCB4387124D5C48DD40487 /* AppCenterXCUITestExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A24C86D52C0673DD9AD73F46B3F23 /* AppCenterXCUITestExtensions-dummy.m */; };
+		3368F4AFCA4CB510C3A4D61E21127FF7 /* AppCenterXCUITestExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E02B2128BE09146696B283763095FE68 /* AppCenterXCUITestExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1BBFC00F010077393FF1757AA8EE90 /* Pods-FlickerImageAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9387884511BCF3FD03173DFE23523D3 /* Pods-FlickerImageAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		600AB2CF6BACDC4C428E923DE6B92761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		71D6E233570F4B0C9516032965F42089 /* AppCenterXCUITestExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98ED49B7954FD698653DEE16A2CEA2D5 /* AppCenterXCUITestExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82799CDE196D8F0B99221EC15012D547 /* ACTLaunch.h in Headers */ = {isa = PBXBuildFile; fileRef = D0572DE058ADA350E9780822FB47419C /* ACTLaunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F79BD12FC96C879483A6D385EAAA906 /* ACTLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = F18213673F2F69AEB801E5AE2BDE455F /* ACTLaunch.m */; };
+		981806B1DF9E05AE968A99D4FD8DE80E /* AppCenterXCUITestExtensions-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7875EF948347BE9F811990E9AEDE0C4C /* AppCenterXCUITestExtensions-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A96CBB1939C25A91522697DF13AA12B /* Pods-FlickerImageApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4440C4062C49CE2B9798ACF06EB735B /* Pods-FlickerImageApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B852041A45A21DA0490E7D42EDCDA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		B53842B4221FFCC8934D4CD7FED73569 /* ACTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B0220AEE4FD4E3C62F817F13000E8 /* ACTLabel.m */; };
+		CA902D2011761428313DE3FF1AD7A984 /* Pods-FlickerImageAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAAF846C02707DD65557498E59669809 /* Pods-FlickerImageAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3992AC0ADB7A522930EC933B0FBCEA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */; };
+		E8C5DE6804453AEBE5186C926A48D78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		EBA610C6E7D7D9C653ABD89793D21009 /* ACTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C301B8CDA14E3B5DA225E39D330321 /* ACTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBDF71E930175436D92808DEBB614DF /* Pods-FlickerImageAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF610CBA81E5C9F99E98BD8D801B /* Pods-FlickerImageAppUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44904EB4CDAFE1F71EC47FFA194B7D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400649606D1139595090BF5C2954FAE6;
+			remoteInfo = "Pods-FlickerImageApp";
+		};
+		AA7F604AE29ADB1DC8A685B32537BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400649606D1139595090BF5C2954FAE6;
+			remoteInfo = "Pods-FlickerImageApp";
+		};
+		FC4EA68A29DE7718612EE66BB5B8489F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D787537662977C07F19B6A1A6B356BBC;
+			remoteInfo = AppCenterXCUITestExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064784E58B3B70E1CE3B36BAFA453B11 /* AppCenterXCUITestExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppCenterXCUITestExtensions.framework; path = AppCenterXCUITestExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4C0FD674AFE28909A4BF98939F0647 /* Pods-FlickerImageApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlickerImageApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5C43F90DF44AE9DECDC16381A2DCEE /* Pods-FlickerImageApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlickerImageApp-dummy.m"; sourceTree = "<group>"; };
+		1847CF610CBA81E5C9F99E98BD8D801B /* Pods-FlickerImageAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlickerImageAppUITests-dummy.m"; sourceTree = "<group>"; };
+		18BD5BA4873C4A6A989AAF0D08D47D43 /* Pods-FlickerImageAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageAppTests-resources.sh"; sourceTree = "<group>"; };
+		20C3B4D034AD08426C6F9728AB69513E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D43D6BFD8F8A6D5E8435E6C670FC37 /* Pods-FlickerImageAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlickerImageAppTests-dummy.m"; sourceTree = "<group>"; };
+		2720BC5EFBBA943CEB3C01416CEA8D88 /* Pods-FlickerImageAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D9774EBB1D25F3B55361185DB89C0B0 /* Pods-FlickerImageAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlickerImageAppUITests.modulemap"; sourceTree = "<group>"; };
+		3D09E4EBD41FECE0FBF59333AB2B9327 /* Pods-FlickerImageAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		500CC0EE00C6381B774012623838CE31 /* Pods-FlickerImageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		568B6D899F430B26BF06425D2143E5A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5891FA3B60931CBAE924F5A66E8BDC1A /* Pods-FlickerImageApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlickerImageApp.modulemap"; sourceTree = "<group>"; };
+		6BAE80603F5E398111C4A159C6C5E153 /* Pods-FlickerImageAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76F19E913AD9C6F63C73DF9B8C0FB045 /* Pods-FlickerImageApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageApp-resources.sh"; sourceTree = "<group>"; };
+		7875EF948347BE9F811990E9AEDE0C4C /* AppCenterXCUITestExtensions-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppCenterXCUITestExtensions-Bridging-Header.h"; path = "Sources/AppCenterXCUITestExtensions-Bridging-Header.h"; sourceTree = "<group>"; };
+		7973478AA4EE43208BE07AF4316B3098 /* Pods-FlickerImageAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlickerImageAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81C301B8CDA14E3B5DA225E39D330321 /* ACTLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACTLabel.h; path = Sources/ACTLabel.h; sourceTree = "<group>"; };
+		81FC9635D84F5A76CC30A32D7BDAC175 /* Pods_FlickerImageAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlickerImageAppTests.framework; path = "Pods-FlickerImageAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FE537839FAC185C6FD731D23BDCE62 /* Pods-FlickerImageAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AD3D1D7031043ECC07FDDF33354A337 /* Pods-FlickerImageAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		9132DE4750F280FD77A24EE9AD1DA862 /* Pods_FlickerImageAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlickerImageAppUITests.framework; path = "Pods-FlickerImageAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98ED49B7954FD698653DEE16A2CEA2D5 /* AppCenterXCUITestExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppCenterXCUITestExtensions-umbrella.h"; sourceTree = "<group>"; };
+		9B2B135E13717529814D09640B1FAB0A /* AppCenterXCUITestExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterXCUITestExtensions.xcconfig; sourceTree = "<group>"; };
+		9C2C7034CF0E8FE4EBB43D248D05BD92 /* Pods-FlickerImageAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlickerImageAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D47EDDF4A17E410E141195D14B2FDCC /* Pods-FlickerImageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F33B99CB9BBA039E18DCAD33E753F62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4440C4062C49CE2B9798ACF06EB735B /* Pods-FlickerImageApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlickerImageApp-umbrella.h"; sourceTree = "<group>"; };
+		A93B0220AEE4FD4E3C62F817F13000E8 /* ACTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACTLabel.m; path = Sources/ACTLabel.m; sourceTree = "<group>"; };
+		AA3BF5412032AFDF226B78A93F975825 /* Pods-FlickerImageAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerImageAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5ABA4468CF9A28B73859327C049362 /* Pods-FlickerImageAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageAppUITests-resources.sh"; sourceTree = "<group>"; };
+		B0EFFF6332F12C94A72BE87A449EB9B6 /* Pods-FlickerImageApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickerImageApp-frameworks.sh"; sourceTree = "<group>"; };
+		B1D30817ADF925D053A704362D9D9F90 /* Pods-FlickerImageApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlickerImageApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B60C3E9EE4D821A2F78730114648AC3B /* Pods-FlickerImageAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlickerImageAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7377573728E9F58CCFD4E74CAF99770 /* AppCenterXCUITestExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppCenterXCUITestExtensions-prefix.pch"; sourceTree = "<group>"; };
+		B9387884511BCF3FD03173DFE23523D3 /* Pods-FlickerImageAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlickerImageAppTests-umbrella.h"; sourceTree = "<group>"; };
+		BA3AB1978F37F1DEECAF843F94EBB959 /* Pods-FlickerImageAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlickerImageAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C205998412F710DE4ABA0444395BC589 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C687563B50A411F0B6E025CEDB879089 /* Pods-FlickerImageAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlickerImageAppTests.modulemap"; sourceTree = "<group>"; };
+		D0572DE058ADA350E9780822FB47419C /* ACTLaunch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACTLaunch.h; path = Sources/ACTLaunch.h; sourceTree = "<group>"; };
+		DA6BBDA97B45121EBA4016CCD1FDFA78 /* Pods_FlickerImageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlickerImageApp.framework; path = "Pods-FlickerImageApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFF8B429C44A4FB6F487B9F06C6F9BE4 /* AppCenterXCUITestExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppCenterXCUITestExtensions.modulemap; sourceTree = "<group>"; };
+		E02B2128BE09146696B283763095FE68 /* AppCenterXCUITestExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppCenterXCUITestExtensions.h; path = Sources/AppCenterXCUITestExtensions.h; sourceTree = "<group>"; };
+		EAAF846C02707DD65557498E59669809 /* Pods-FlickerImageAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlickerImageAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		F18213673F2F69AEB801E5AE2BDE455F /* ACTLaunch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACTLaunch.m; path = Sources/ACTLaunch.m; sourceTree = "<group>"; };
+		F80A24C86D52C0673DD9AD73F46B3F23 /* AppCenterXCUITestExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppCenterXCUITestExtensions-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C49FEE820CC68CF2B898CC16FBECF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E99D33FD57A6707F78EE22F074BCD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B44CE2EF9B1BF902951EA4200F67F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B852041A45A21DA0490E7D42EDCDA46 /* Foundation.framework in Frameworks */,
+				E3992AC0ADB7A522930EC933B0FBCEA8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA946ADCB31E4B348EB328F2EAF751E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600AB2CF6BACDC4C428E923DE6B92761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE94B13D6FA252510264BBC07A68D53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C5DE6804453AEBE5186C926A48D78A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109ADF4C2F0C0F5B369C68D4E874C117 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B429C44A4FB6F487B9F06C6F9BE4 /* AppCenterXCUITestExtensions.modulemap */,
+				9B2B135E13717529814D09640B1FAB0A /* AppCenterXCUITestExtensions.xcconfig */,
+				F80A24C86D52C0673DD9AD73F46B3F23 /* AppCenterXCUITestExtensions-dummy.m */,
+				B7377573728E9F58CCFD4E74CAF99770 /* AppCenterXCUITestExtensions-prefix.pch */,
+				98ED49B7954FD698653DEE16A2CEA2D5 /* AppCenterXCUITestExtensions-umbrella.h */,
+				20C3B4D034AD08426C6F9728AB69513E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterXCUITestExtensions";
+			sourceTree = "<group>";
+		};
+		1E049C58787F4A7D8985703A6D5B30C0 /* Pods-FlickerImageApp */ = {
+			isa = PBXGroup;
+			children = (
+				9F33B99CB9BBA039E18DCAD33E753F62 /* Info.plist */,
+				5891FA3B60931CBAE924F5A66E8BDC1A /* Pods-FlickerImageApp.modulemap */,
+				B1D30817ADF925D053A704362D9D9F90 /* Pods-FlickerImageApp-acknowledgements.markdown */,
+				0D4C0FD674AFE28909A4BF98939F0647 /* Pods-FlickerImageApp-acknowledgements.plist */,
+				0F5C43F90DF44AE9DECDC16381A2DCEE /* Pods-FlickerImageApp-dummy.m */,
+				B0EFFF6332F12C94A72BE87A449EB9B6 /* Pods-FlickerImageApp-frameworks.sh */,
+				76F19E913AD9C6F63C73DF9B8C0FB045 /* Pods-FlickerImageApp-resources.sh */,
+				A4440C4062C49CE2B9798ACF06EB735B /* Pods-FlickerImageApp-umbrella.h */,
+				500CC0EE00C6381B774012623838CE31 /* Pods-FlickerImageApp.debug.xcconfig */,
+				9D47EDDF4A17E410E141195D14B2FDCC /* Pods-FlickerImageApp.release.xcconfig */,
+			);
+			name = "Pods-FlickerImageApp";
+			path = "Target Support Files/Pods-FlickerImageApp";
+			sourceTree = "<group>";
+		};
+		1E85F0F44277212282918D8D5DDB3588 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */,
+				80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		39BC5763914D4745C5F43184ADC4B182 /* Pods-FlickerImageAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				568B6D899F430B26BF06425D2143E5A1 /* Info.plist */,
+				C687563B50A411F0B6E025CEDB879089 /* Pods-FlickerImageAppTests.modulemap */,
+				B60C3E9EE4D821A2F78730114648AC3B /* Pods-FlickerImageAppTests-acknowledgements.markdown */,
+				BA3AB1978F37F1DEECAF843F94EBB959 /* Pods-FlickerImageAppTests-acknowledgements.plist */,
+				21D43D6BFD8F8A6D5E8435E6C670FC37 /* Pods-FlickerImageAppTests-dummy.m */,
+				8AD3D1D7031043ECC07FDDF33354A337 /* Pods-FlickerImageAppTests-frameworks.sh */,
+				18BD5BA4873C4A6A989AAF0D08D47D43 /* Pods-FlickerImageAppTests-resources.sh */,
+				B9387884511BCF3FD03173DFE23523D3 /* Pods-FlickerImageAppTests-umbrella.h */,
+				6BAE80603F5E398111C4A159C6C5E153 /* Pods-FlickerImageAppTests.debug.xcconfig */,
+				2720BC5EFBBA943CEB3C01416CEA8D88 /* Pods-FlickerImageAppTests.release.xcconfig */,
+			);
+			name = "Pods-FlickerImageAppTests";
+			path = "Target Support Files/Pods-FlickerImageAppTests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E85F0F44277212282918D8D5DDB3588 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F4DF63B2F527922AF13E77D3C61DC07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E049C58787F4A7D8985703A6D5B30C0 /* Pods-FlickerImageApp */,
+				39BC5763914D4745C5F43184ADC4B182 /* Pods-FlickerImageAppTests */,
+				F44FB7F66FDE64BED0A8A93533B93840 /* Pods-FlickerImageAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A22596E5F755EA20A53BAAA6F55DE436 /* Pods */,
+				D0C7C5668B752980539ADDB74705F839 /* Products */,
+				4F4DF63B2F527922AF13E77D3C61DC07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98CB0D22C3BF87D54FE8BA916A44551C /* AppCenterXCUITestExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				81C301B8CDA14E3B5DA225E39D330321 /* ACTLabel.h */,
+				A93B0220AEE4FD4E3C62F817F13000E8 /* ACTLabel.m */,
+				D0572DE058ADA350E9780822FB47419C /* ACTLaunch.h */,
+				F18213673F2F69AEB801E5AE2BDE455F /* ACTLaunch.m */,
+				E02B2128BE09146696B283763095FE68 /* AppCenterXCUITestExtensions.h */,
+				7875EF948347BE9F811990E9AEDE0C4C /* AppCenterXCUITestExtensions-Bridging-Header.h */,
+				109ADF4C2F0C0F5B369C68D4E874C117 /* Support Files */,
+			);
+			name = AppCenterXCUITestExtensions;
+			path = AppCenterXCUITestExtensions;
+			sourceTree = "<group>";
+		};
+		A22596E5F755EA20A53BAAA6F55DE436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CB0D22C3BF87D54FE8BA916A44551C /* AppCenterXCUITestExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0C7C5668B752980539ADDB74705F839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064784E58B3B70E1CE3B36BAFA453B11 /* AppCenterXCUITestExtensions.framework */,
+				DA6BBDA97B45121EBA4016CCD1FDFA78 /* Pods_FlickerImageApp.framework */,
+				81FC9635D84F5A76CC30A32D7BDAC175 /* Pods_FlickerImageAppTests.framework */,
+				9132DE4750F280FD77A24EE9AD1DA862 /* Pods_FlickerImageAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44FB7F66FDE64BED0A8A93533B93840 /* Pods-FlickerImageAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C205998412F710DE4ABA0444395BC589 /* Info.plist */,
+				2D9774EBB1D25F3B55361185DB89C0B0 /* Pods-FlickerImageAppUITests.modulemap */,
+				9C2C7034CF0E8FE4EBB43D248D05BD92 /* Pods-FlickerImageAppUITests-acknowledgements.markdown */,
+				7973478AA4EE43208BE07AF4316B3098 /* Pods-FlickerImageAppUITests-acknowledgements.plist */,
+				1847CF610CBA81E5C9F99E98BD8D801B /* Pods-FlickerImageAppUITests-dummy.m */,
+				3D09E4EBD41FECE0FBF59333AB2B9327 /* Pods-FlickerImageAppUITests-frameworks.sh */,
+				AB5ABA4468CF9A28B73859327C049362 /* Pods-FlickerImageAppUITests-resources.sh */,
+				EAAF846C02707DD65557498E59669809 /* Pods-FlickerImageAppUITests-umbrella.h */,
+				AA3BF5412032AFDF226B78A93F975825 /* Pods-FlickerImageAppUITests.debug.xcconfig */,
+				82FE537839FAC185C6FD731D23BDCE62 /* Pods-FlickerImageAppUITests.release.xcconfig */,
+			);
+			name = "Pods-FlickerImageAppUITests";
+			path = "Target Support Files/Pods-FlickerImageAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04B0E8A75036B9940B335E2667944A68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A96CBB1939C25A91522697DF13AA12B /* Pods-FlickerImageApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E303273A8E6C349232B87A4791FFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1BBFC00F010077393FF1757AA8EE90 /* Pods-FlickerImageAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF477EE3FFAD41CCBDA1C60080B827C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA610C6E7D7D9C653ABD89793D21009 /* ACTLabel.h in Headers */,
+				82799CDE196D8F0B99221EC15012D547 /* ACTLaunch.h in Headers */,
+				981806B1DF9E05AE968A99D4FD8DE80E /* AppCenterXCUITestExtensions-Bridging-Header.h in Headers */,
+				71D6E233570F4B0C9516032965F42089 /* AppCenterXCUITestExtensions-umbrella.h in Headers */,
+				3368F4AFCA4CB510C3A4D61E21127FF7 /* AppCenterXCUITestExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F027EEFEDB370E54F2DC701EFBEB5EC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA902D2011761428313DE3FF1AD7A984 /* Pods-FlickerImageAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16D2B03855461F2CF73F4788507922AD /* Pods-FlickerImageAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176208A8640FFAC5D2436FD6874EB00C /* Build configuration list for PBXNativeTarget "Pods-FlickerImageAppUITests" */;
+			buildPhases = (
+				C633770FFA67A4C38AEBFE012C7B512E /* Sources */,
+				63C49FEE820CC68CF2B898CC16FBECF8 /* Frameworks */,
+				F027EEFEDB370E54F2DC701EFBEB5EC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F32E012102747EB66BD385CA8C8B0A /* PBXTargetDependency */,
+				0E4BCC0C9F7E5B9D0FCF0B54BE93A96F /* PBXTargetDependency */,
+			);
+			name = "Pods-FlickerImageAppUITests";
+			productName = "Pods-FlickerImageAppUITests";
+			productReference = 9132DE4750F280FD77A24EE9AD1DA862 /* Pods_FlickerImageAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C44367F9194E9E20F5CE9BB64263A93 /* Pods-FlickerImageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C8AAB12227389191F6C3B60B5A295E /* Build configuration list for PBXNativeTarget "Pods-FlickerImageAppTests" */;
+			buildPhases = (
+				93A22B5455172678B552AACE8C49FBF1 /* Sources */,
+				CA946ADCB31E4B348EB328F2EAF751E7 /* Frameworks */,
+				980E303273A8E6C349232B87A4791FFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42631F7D2134831D3C34565189D601B /* PBXTargetDependency */,
+			);
+			name = "Pods-FlickerImageAppTests";
+			productName = "Pods-FlickerImageAppTests";
+			productReference = 81FC9635D84F5A76CC30A32D7BDAC175 /* Pods_FlickerImageAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		400649606D1139595090BF5C2954FAE6 /* Pods-FlickerImageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C7E05A57D92B58FC857CBF3CA99BDC /* Build configuration list for PBXNativeTarget "Pods-FlickerImageApp" */;
+			buildPhases = (
+				1FD79F51A972C2EC3ADAC28C1499E5B1 /* Sources */,
+				CE94B13D6FA252510264BBC07A68D53B /* Frameworks */,
+				04B0E8A75036B9940B335E2667944A68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlickerImageApp";
+			productName = "Pods-FlickerImageApp";
+			productReference = DA6BBDA97B45121EBA4016CCD1FDFA78 /* Pods_FlickerImageApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE773FEC46EAE11A674677BDD62E0703 /* Build configuration list for PBXNativeTarget "AppCenterXCUITestExtensions" */;
+			buildPhases = (
+				C288ADC577DFCD61C58C16E99615ED79 /* Sources */,
+				98B44CE2EF9B1BF902951EA4200F67F8 /* Frameworks */,
+				EDF477EE3FFAD41CCBDA1C60080B827C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppCenterXCUITestExtensions;
+			productName = AppCenterXCUITestExtensions;
+			productReference = 064784E58B3B70E1CE3B36BAFA453B11 /* AppCenterXCUITestExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D0C7C5668B752980539ADDB74705F839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */,
+				400649606D1139595090BF5C2954FAE6 /* Pods-FlickerImageApp */,
+				1C44367F9194E9E20F5CE9BB64263A93 /* Pods-FlickerImageAppTests */,
+				16D2B03855461F2CF73F4788507922AD /* Pods-FlickerImageAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD79F51A972C2EC3ADAC28C1499E5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226A5C607A9461EFE3644FC5667D5014 /* Pods-FlickerImageApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A22B5455172678B552AACE8C49FBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091EA9CCD592C33B9EFCA276C0C3C64B /* Pods-FlickerImageAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C288ADC577DFCD61C58C16E99615ED79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53842B4221FFCC8934D4CD7FED73569 /* ACTLabel.m in Sources */,
+				8F79BD12FC96C879483A6D385EAAA906 /* ACTLaunch.m in Sources */,
+				3145E3848BBCB4387124D5C48DD40487 /* AppCenterXCUITestExtensions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633770FFA67A4C38AEBFE012C7B512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDF71E930175436D92808DEBB614DF /* Pods-FlickerImageAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E4BCC0C9F7E5B9D0FCF0B54BE93A96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlickerImageApp";
+			target = 400649606D1139595090BF5C2954FAE6 /* Pods-FlickerImageApp */;
+			targetProxy = 44904EB4CDAFE1F71EC47FFA194B7D28 /* PBXContainerItemProxy */;
+		};
+		A42631F7D2134831D3C34565189D601B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlickerImageApp";
+			target = 400649606D1139595090BF5C2954FAE6 /* Pods-FlickerImageApp */;
+			targetProxy = AA7F604AE29ADB1DC8A685B32537BD1B /* PBXContainerItemProxy */;
+		};
+		A8F32E012102747EB66BD385CA8C8B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterXCUITestExtensions;
+			target = D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */;
+			targetProxy = FC4EA68A29DE7718612EE66BB5B8489F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05183B97AB7FECC0359818335B1FC804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3BF5412032AFDF226B78A93F975825 /* Pods-FlickerImageAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageAppUITests/Pods-FlickerImageAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EB0A98DB8D4B31FCEB72FA6F4F31CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2720BC5EFBBA943CEB3C01416CEA8D88 /* Pods-FlickerImageAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageAppTests/Pods-FlickerImageAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EC85E9ECB9BBAE5041279C1AFAF6E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2B135E13717529814D09640B1FAB0A /* AppCenterXCUITestExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppCenterXCUITestExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.modulemap";
+				PRODUCT_MODULE_NAME = AppCenterXCUITestExtensions;
+				PRODUCT_NAME = AppCenterXCUITestExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		107B08D12A27D3638743F51053E8003A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FE537839FAC185C6FD731D23BDCE62 /* Pods-FlickerImageAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageAppUITests/Pods-FlickerImageAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4514173D877338479B75C18E48B7D97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2B135E13717529814D09640B1FAB0A /* AppCenterXCUITestExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppCenterXCUITestExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.modulemap";
+				PRODUCT_MODULE_NAME = AppCenterXCUITestExtensions;
+				PRODUCT_NAME = AppCenterXCUITestExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49028C1EF4A8151621FD286ED4294F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D47EDDF4A17E410E141195D14B2FDCC /* Pods-FlickerImageApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageApp/Pods-FlickerImageApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73B3E25F5983C063D32AD2C1EF45C5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500CC0EE00C6381B774012623838CE31 /* Pods-FlickerImageApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageApp/Pods-FlickerImageApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87D40B7FAEF9263DC0687653488C52BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAE80603F5E398111C4A159C6C5E153 /* Pods-FlickerImageAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlickerImageAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlickerImageAppTests/Pods-FlickerImageAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C8AAB12227389191F6C3B60B5A295E /* Build configuration list for PBXNativeTarget "Pods-FlickerImageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D40B7FAEF9263DC0687653488C52BD /* Debug */,
+				0EB0A98DB8D4B31FCEB72FA6F4F31CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C7E05A57D92B58FC857CBF3CA99BDC /* Build configuration list for PBXNativeTarget "Pods-FlickerImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B3E25F5983C063D32AD2C1EF45C5B2 /* Debug */,
+				49028C1EF4A8151621FD286ED4294F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176208A8640FFAC5D2436FD6874EB00C /* Build configuration list for PBXNativeTarget "Pods-FlickerImageAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05183B97AB7FECC0359818335B1FC804 /* Debug */,
+				107B08D12A27D3638743F51053E8003A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE773FEC46EAE11A674677BDD62E0703 /* Build configuration list for PBXNativeTarget "AppCenterXCUITestExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4514173D877338479B75C18E48B7D97A /* Debug */,
+				0EC85E9ECB9BBAE5041279C1AFAF6E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
