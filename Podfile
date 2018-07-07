@@ -10,6 +10,8 @@ target 'FlickerImageApp' do
   target 'FlickerImageAppTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'AppCenterXCUITestExtensions'
+
   end
 
   target 'FlickerImageAppUITests' do
