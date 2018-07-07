@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_workspace: FlickerImageApp.xcworkspace # path to your xcodeproj folder
-xcode_scheme: FlickerImageApp
+# xcode_workspace: FlickerImageApp.xcworkspace # path to your xcodeproj folder
+# xcode_scheme: FlickerImageApp
 
 branches:
   only:
@@ -14,3 +14,5 @@ before_install:
   - gem install xcpretty -N
 script:
   - set -o pipefail
+  - xcodebuild clean test -xcworkspace FlickerImageApp.xcworkspace -scheme FlickerImageApp -destination "platform=iOS Simulator,name=iPhone SE,OS=11.0" CODE_SIGN_IDENTITY="" 
+  CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
