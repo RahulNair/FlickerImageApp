@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_workspace: FlickerImageApp.xcodeproj # path to your xcodeproj folder
+xcode_workspace: FlickerImageApp.xcworkspace # path to your xcodeproj folder
 xcode_scheme: FlickerImageApp
 
 branches:
