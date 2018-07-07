@@ -4,31 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppCenterXCUITestExtensions.xcscheme</key>
+		<key>AppCenterXCUITestExtensions.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-FlickerImageApp.xcscheme</key>
+		<key>Pods-FlickerImageApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-FlickerImageAppTests.xcscheme</key>
+		<key>Pods-FlickerImageAppTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-FlickerImageAppUITests.xcscheme</key>
+		<key>Pods-FlickerImageAppUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>

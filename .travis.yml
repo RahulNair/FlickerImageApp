@@ -13,4 +13,3 @@ before_install:
 script:
   - set -o pipefail
   - xcodebuild -workspace FlickerImageApp.xcworkspace -scheme FlickerImageApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - ./bin/unit-tests
