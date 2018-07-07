@@ -20,6 +20,20 @@
                ReferencedContainer = "container:FlickerImageApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FCC37E8B20E23CEC0047E782"
+               BuildableName = "FlickerImageAppTests.xctest"
+               BlueprintName = "FlickerImageAppTests"
+               ReferencedContainer = "container:FlickerImageApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
