@@ -12,3 +12,5 @@ before_install:
   - rvm install ruby-2.2.2
   - gem install cocoapods
   - gem install xcpretty -N
+script:
+  - set -o pipefail
