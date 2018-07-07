@@ -39,7 +39,6 @@ class FlickerImageAppTests: XCTestCase {
         networkObj.fetchGET_URL(urlString: url, queryItems: paramDict) { (results) in
             switch results {
             case .success(let val) :
-                XCTAssertNil(val, "Error occured")
                  let jsonString = String(data: val, encoding: String.Encoding.utf8)
                  XCTAssertGreaterThan((jsonString?.count)!, 0, "Records found")
             case .failure(let val) :
