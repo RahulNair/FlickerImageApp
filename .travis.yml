@@ -14,4 +14,4 @@ before_install:
   - gem install xcpretty -N
 script:
   - set -o pipefail
-  - xcodebuild -scheme FlickerImageApp -workspace FlickerImageApp.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=9.2' build test  CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+  - xcodebuild -scheme FlickerImageApp -workspace FlickerImageApp.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11.2' build test  CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
