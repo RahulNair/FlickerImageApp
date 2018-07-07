@@ -1,5 +1,5 @@
-language: objective-c  #1
-osx_image: xcode9.2 #2
-xcode_workspace: FlickerImageApp.xcworkspace #3
-xcode_scheme: FlickerImageApp #4
-xcode_sdk: iphonesimulator11.2 #5
+language: swift
+os: osx
+osx_image: xcode9.2
+script:
+    - xcodebuild clean test -workspace FlickerImageApp.xcworkspace -scheme FlickerImageApp -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
