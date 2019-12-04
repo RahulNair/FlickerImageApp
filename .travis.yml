@@ -1,5 +1,17 @@
-language: objective-c  #1
-osx_image: xcode9.2 #2
-xcode_workspace: FlickerImageApp.xcworkspace #3
-xcode_scheme: FlickerImageApp #4
-xcode_sdk: iphonesimulator11.2 #5
+language: objective-c
+osx_image: xcode9.2
+# xcode_workspace: FlickerImageApp.xcworkspace # path to your xcodeproj folder
+# xcode_scheme: FlickerImageApp
+
+branches:
+  only:
+    - master
+env:
+  - LC_CTYPE=en_US.UTF-8 LANG=en_US.UTF-8
+before_install:
+  - rvm install ruby-2.2.2
+  - gem install cocoapods
+  - gem install xcpretty -N
+script:
+  - set -o pipefail
+  - xcodebuild -scheme FlickerImageApp -workspace FlickerImageApp.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11.2' build test  CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet

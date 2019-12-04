@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1FCDBF1264EBF82DE687D403 /* Pods_FlickerImageAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A159F5FC5F4E61330D549F6 /* Pods_FlickerImageAppTests.framework */; };
 		5F63FD3BFE979858B72A4AA8 /* Pods_FlickerImageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027112B02C4F87248843C5ED /* Pods_FlickerImageApp.framework */; };
-		B81C7C73FF57C5656B2413E4 /* Pods_FlickerImageAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13BE25E9F410F01D288CCF6 /* Pods_FlickerImageAppUITests.framework */; };
-		FC48022420EF4F54003BC542 /* FlickerImageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC48022320EF4F54003BC542 /* FlickerImageAppUITests.swift */; };
 		FC60C61E20E4B882000733AA /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60C61C20E4B882000733AA /* ImageCell.swift */; };
 		FC60C61F20E4B882000733AA /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60C61D20E4B882000733AA /* ImageCell.xib */; };
 		FC60C75720E4CD66000733AA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60C75620E4CD66000733AA /* NetworkHelper.swift */; };
@@ -25,13 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC48022620EF4F54003BC542 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC37E7020E23CEB0047E782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCC37E7720E23CEB0047E782;
-			remoteInfo = FlickerImageApp;
-		};
 		FCC37E8D20E23CEC0047E782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FCC37E7020E23CEB0047E782 /* Project object */;
@@ -51,9 +42,6 @@
 		BF3D96EDFC522D96B3A5118B /* Pods-FlickerImageAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerImageAppTests/Pods-FlickerImageAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C13BE25E9F410F01D288CCF6 /* Pods_FlickerImageAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerImageAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7384471B9D69CE0E22E3C7F /* Pods-FlickerImageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerImageApp/Pods-FlickerImageApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FC48022120EF4F53003BC542 /* FlickerImageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerImageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC48022320EF4F54003BC542 /* FlickerImageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerImageAppUITests.swift; sourceTree = "<group>"; };
-		FC48022520EF4F54003BC542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC60C61C20E4B882000733AA /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		FC60C61D20E4B882000733AA /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		FC60C75620E4CD66000733AA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
@@ -72,14 +60,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC48021E20EF4F53003BC542 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B81C7C73FF57C5656B2413E4 /* Pods_FlickerImageAppUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FCC37E7520E23CEB0047E782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,15 +102,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FC48022220EF4F54003BC542 /* FlickerImageAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FC48022320EF4F54003BC542 /* FlickerImageAppUITests.swift */,
-				FC48022520EF4F54003BC542 /* Info.plist */,
-			);
-			path = FlickerImageAppUITests;
-			sourceTree = "<group>";
-		};
 		FC60C61B20E4B808000733AA /* cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +140,6 @@
 			children = (
 				FCC37E7A20E23CEB0047E782 /* FlickerImageApp */,
 				FCC37E8F20E23CEC0047E782 /* FlickerImageAppTests */,
-				FC48022220EF4F54003BC542 /* FlickerImageAppUITests */,
 				FCC37E7920E23CEB0047E782 /* Products */,
 				F90B6AD81D54A344D58CB163 /* Pods */,
 				90554DBE5C4D3C542FF8183E /* Frameworks */,
@@ -181,7 +151,6 @@
 			children = (
 				FCC37E7820E23CEB0047E782 /* FlickerImageApp.app */,
 				FCC37E8C20E23CEC0047E782 /* FlickerImageAppTests.xctest */,
-				FC48022120EF4F53003BC542 /* FlickerImageAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,26 +184,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC48022020EF4F53003BC542 /* FlickerImageAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC48022A20EF4F54003BC542 /* Build configuration list for PBXNativeTarget "FlickerImageAppUITests" */;
-			buildPhases = (
-				2B938975423242D1479913DD /* [CP] Check Pods Manifest.lock */,
-				FC48021D20EF4F53003BC542 /* Sources */,
-				FC48021E20EF4F53003BC542 /* Frameworks */,
-				FC48021F20EF4F53003BC542 /* Resources */,
-				C0DA3EEA612F43359047D1A7 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC48022720EF4F54003BC542 /* PBXTargetDependency */,
-			);
-			name = FlickerImageAppUITests;
-			productName = FlickerImageAppUITests;
-			productReference = FC48022120EF4F53003BC542 /* FlickerImageAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		FCC37E7720E23CEB0047E782 /* FlickerImageApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCC37E9520E23CEC0047E782 /* Build configuration list for PBXNativeTarget "FlickerImageApp" */;
@@ -282,11 +231,6 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Rahul;
 				TargetAttributes = {
-					FC48022020EF4F53003BC542 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FCC37E7720E23CEB0047E782;
-					};
 					FCC37E7720E23CEB0047E782 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -313,19 +257,11 @@
 			targets = (
 				FCC37E7720E23CEB0047E782 /* FlickerImageApp */,
 				FCC37E8B20E23CEC0047E782 /* FlickerImageAppTests */,
-				FC48022020EF4F53003BC542 /* FlickerImageAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC48021F20EF4F53003BC542 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FCC37E7620E23CEB0047E782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,42 +301,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2B938975423242D1479913DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlickerImageAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0DA3EEA612F43359047D1A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FlickerImageAppUITests/Pods-FlickerImageAppUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppCenterXCUITestExtensions.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickerImageAppUITests/Pods-FlickerImageAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C9C32497B985EB3CC0D8E855 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,14 +322,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC48021D20EF4F53003BC542 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC48022420EF4F54003BC542 /* FlickerImageAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FCC37E7420E23CEB0047E782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,11 +346,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC48022720EF4F54003BC542 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCC37E7720E23CEB0047E782 /* FlickerImageApp */;
-			targetProxy = FC48022620EF4F54003BC542 /* PBXContainerItemProxy */;
-		};
 		FCC37E8E20E23CEC0047E782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FCC37E7720E23CEB0047E782 /* FlickerImageApp */;
@@ -486,36 +373,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FC48022820EF4F54003BC542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D9E04082E9EEDBB87F9E757 /* Pods-FlickerImageAppUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FlickerImageAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raweng..FlickerImageAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlickerImageApp;
-			};
-			name = Debug;
-		};
-		FC48022920EF4F54003BC542 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CC6DBE568465A5FFEF17843 /* Pods-FlickerImageAppUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FlickerImageAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raweng..FlickerImageAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlickerImageApp;
-			};
-			name = Release;
-		};
 		FCC37E9320E23CEC0047E782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -629,12 +486,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FlickerImageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.FlickerImageApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -644,12 +503,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FlickerImageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.FlickerImageApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -690,15 +551,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC48022A20EF4F54003BC542 /* Build configuration list for PBXNativeTarget "FlickerImageAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC48022820EF4F54003BC542 /* Debug */,
-				FC48022920EF4F54003BC542 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FCC37E7320E23CEB0047E782 /* Build configuration list for PBXProject "FlickerImageApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
